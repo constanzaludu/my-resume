@@ -5,7 +5,7 @@ import { Container, Navbar, Nav, Dropdown, Form } from 'react-bootstrap';
 const NavBar = () => {
     return ( 
         <>
-        <Navbar bg="light" expand="lg">
+        <Navbar className='navbar' bg="light" expand="lg">
             <Container className='NavigationBar' fluid>
             <Dropdown className='trasnslate-button'>
             <Dropdown.Toggle className='trasnslate-button-link' variant="link" id="dropdown-basic">

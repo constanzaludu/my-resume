@@ -1,15 +1,40 @@
 import React from "react";
 import { Navbar, Container } from "react-bootstrap";
+import LinkedIn from '../images/linkedin.png'
+import GitHub from '../images/github.png'
+import Gmail from '../images/gmail.png'
+import Slack from '../images/slack.png'
 
 const Footer = () => {
     return ( 
-        <Navbar bg="light">
-        <Container>
+        <Navbar bg="light" style={{height:'85px !important' }}>
+        <Container className="d-flex justify-content-end" >
             <Navbar.Brand href="#home">
             <img
-                src="/logo.svg"
-                width="30"
-                height="30"
+                src={LinkedIn}
+                width="40"
+                height="auto"
+                className="d-inline-block align-top"
+                alt="React Bootstrap logo"
+            />
+            <img
+                src={GitHub}
+                width="40"
+                height="auto"
+                className="d-inline-block align-top"
+                alt="React Bootstrap logo"
+            />
+            <img
+                src={Gmail}
+                width="40"
+                height="auto"
+                className="d-inline-block align-top"
+                alt="React Bootstrap logo"
+            />
+            <img
+                src={Slack}
+                width="40"
+                height="auto"
                 className="d-inline-block align-top"
                 alt="React Bootstrap logo"
             />
