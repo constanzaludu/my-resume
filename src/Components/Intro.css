@@ -1,0 +1,24 @@
+
+.Container-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 82vh;
+
+}
+.Intro{
+    margin-left: 4.5rem;
+    margin-right:2rem;
+}
+
+@media (min-width: 740px) {
+.Intro{
+    max-width: 140rem;
+    padding-left: 35rem;
+    padding-right: 5rem;
+}
+.Container-name{
+    width: 100%;
+}
+}

@@ -1,0 +1,26 @@
+img {
+    padding-right: 0.5rem;
+}
+.trasnslate-button {
+    box-sizing: none;
+ }
+
+ .NavigationBar {
+     display: flex;
+     flex-direction: row;
+ }
+.btn-link{
+    color: black !important;
+    text-decoration: none !important;
+}
+.form-check-input:checked {
+    background-color: #F8DEDF !important;
+    border-color:  #F8DEDF !important;
+}
+ 
+@media (min-width: 380px) {
+    .NavigationBar {
+       display: flex;
+       flex-direction: row-reverse;
+        }
+}
