@@ -7,7 +7,8 @@
     height: calc(100vh - 165px) !important;
 }
 .Intro{
-    margin-left: 4.5rem;
+    margin-top: 2rem;
+    margin-left: 3.5rem;
     margin-right:2rem;
 }
 
@@ -19,5 +20,6 @@
 }
 .Container-name{
     width: 100%;
+    height: 100%;
 }
 }

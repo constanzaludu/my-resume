@@ -1,0 +1,8 @@
+.tarjeta{
+    padding: 0.5rem;
+    width: 18rem;
+}
+.boton:hover {
+    background-color: #F8DEDF !important;
+    color: black;
+}

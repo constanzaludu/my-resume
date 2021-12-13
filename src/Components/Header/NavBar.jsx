@@ -37,11 +37,11 @@ const NavBar = () => {
             <Navbar.Collapse id="navbarScroll">
             <Nav
                 className="me-auto my-2 my-lg-0"
-                style={{ maxHeight: '150px' }}
+                style={{ maxHeight: '160px' }}
                 navbarScroll
             >
-                <Nav.Link href="#action1">Home</Nav.Link>
-                <Nav.Link href="#action2">About</Nav.Link>
+                <Nav.Link href="/">Home</Nav.Link>
+                <Nav.Link href="/about">About</Nav.Link>
                 <Nav.Link href="#action2">Resume</Nav.Link>
                 <Nav.Link href="#action2">Contact</Nav.Link>
             </Nav>
