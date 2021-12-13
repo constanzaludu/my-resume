@@ -1,5 +1,4 @@
 import "./Intro.css";
-import Background from "../images/laptop-white.jpg";
 import { Container } from 'react-bootstrap';
 
 

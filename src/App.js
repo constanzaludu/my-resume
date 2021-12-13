@@ -1,5 +1,5 @@
-import NavBar from './Components/NavBar';
-import Home from './Components/Home';
+import NavBar from './Components/Header/NavBar';
+import Home from './Components/Main/Home';
 import Footer from './Components/Footer/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Background from '../src/images/laptop-accesories.jpg'
