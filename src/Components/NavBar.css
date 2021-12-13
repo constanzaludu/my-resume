@@ -1,6 +1,4 @@
-.navbar {
-    height: 80px !important;
-}
+
 img {
     padding-right: 0.5rem;
 }
@@ -11,6 +9,7 @@ img {
  .NavigationBar {
      display: flex;
      flex-direction: row;
+
  }
 .btn-link{
     color: black !important;
@@ -21,7 +20,7 @@ img {
     border-color:  #F8DEDF !important;
 }
  
-@media (min-width: 380px) {
+@media (min-width: 991px) {
     .NavigationBar {
        display: flex;
        flex-direction: row-reverse;

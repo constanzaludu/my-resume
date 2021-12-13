@@ -1,13 +1,14 @@
 import React from "react";
 import { Navbar, Container } from "react-bootstrap";
-import LinkedIn from '../images/linkedin.png'
-import GitHub from '../images/github.png'
-import Gmail from '../images/gmail.png'
-import Slack from '../images/slack.png'
+import LinkedIn from '../../images/linkedin.png'
+import GitHub from '../../images/github.png'
+import Gmail from '../../images/gmail.png'
+import Slack from '../../images/slack.png'
 
 const Footer = () => {
     return ( 
-        <Navbar bg="light" style={{height:'85px !important' }}>
+        <Navbar bg="light" fixed="bottom" >
+
         <Container className="d-flex justify-content-end" >
             <Navbar.Brand href="#home">
             <img
