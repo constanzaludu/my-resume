@@ -1,8 +1,8 @@
 import NavBar from './Components/Header/NavBar';
-import Home from './Components/Main/Home';
 import Footer from './Components/Footer/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Background from '../src/images/laptop-accesories.jpg'
+import Rutas from './Components/Rutas/Rutas';
 
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
                       padding: "45px",
                       backgroundSize:'cover', 
                       backgroundRepeat:'no-repeat'}}>
-        <Home />
+        <Rutas />
       </main>
       
       <footer>
