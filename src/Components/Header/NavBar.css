@@ -9,7 +9,6 @@ img {
  .NavigationBar {
      display: flex;
      flex-direction: row;
-
  }
 .btn-link{
     color: black !important;

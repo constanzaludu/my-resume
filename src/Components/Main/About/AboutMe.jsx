@@ -1,9 +1,11 @@
 import React from "react";
+import { Container } from "react-bootstrap";
+import "./AboutMe.css";
 
 const SobreMi = () => {
   return (
     <>
-      <div style={{height:"82vh"}}>
+      <div className="div-contenedor">
         <h2>About me</h2>  
         <br/>
         <h5>Who am I?</h5>

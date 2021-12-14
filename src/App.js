@@ -13,7 +13,7 @@ function App() {
       </header>
       
       <main style={{  backgroundImage:`url(${Background})`, 
-                      padding: "45px",
+                      padding: "1.5rem",
                       backgroundSize:'cover', 
                       backgroundRepeat:'no-repeat'}}>
         <Rutas />
