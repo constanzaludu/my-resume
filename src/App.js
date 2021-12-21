@@ -14,7 +14,10 @@ function App() {
       
       <main style={{  backgroundImage:`url(${Background})`, 
                       padding: "1.5rem",
-                      backgroundSize:'cover', 
+                      backgroundSize:'cover',
+                      minHeight:'calc(100vh - 57px - 65px)',
+                      baxkgroundPosition: 'center',
+                      baxkgroundColor: '#c6c6c6',
                       backgroundRepeat:'no-repeat'}}>
         <Rutas />
       </main>

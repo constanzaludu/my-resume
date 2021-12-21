@@ -7,7 +7,7 @@ import Slack from '../../images/slack.png'
 
 const Footer = () => {
     return ( 
-        <Navbar bg="light"  >
+        <Navbar bg="light" fixed="bottom">
 
         <Container className="d-flex justify-content-end" >
             <Navbar.Brand href="#home">

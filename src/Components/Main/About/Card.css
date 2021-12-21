@@ -6,3 +6,14 @@
     background-color: #F8DEDF !important;
     color: black;
 }
+@media (min-width: 740px) {
+    .tarjeta {
+        margin-top: 4rem;
+    }
+ } 
+
+ @media (min-width: 1300px) {
+    .tarjeta {
+        margin-top: 14rem;
+    }
+ } 
