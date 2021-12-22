@@ -1,0 +1,33 @@
+.contenedor-contact{
+    padding: 1rem;
+    background-color: rgba(255, 255, 255, 0.836);
+    margin-top: 1rem;
+    margin-bottom: 4.5rem !important;
+}
+.boton-send{
+    background-color: #F8DEDF !important;
+    color: black !important;
+}
+.my-text-area{
+    max-height: calc(1em * 1.5 * 7);
+}
+
+
+@media (min-width: 740px) {
+    .contenedor-contact {
+        width: 22rem;
+        margin-top: 8rem;
+        margin-top: 6rem !important;
+        width: 32rem !important;
+        font-size: x-large;
+    }
+ } 
+
+ @media (min-width: 1600px) {
+    .contenedor-contact {
+        width: 40rem !important;
+        height: auto;
+        margin-top: 9rem !important;
+        font-size: x-large;
+    }
+ } 

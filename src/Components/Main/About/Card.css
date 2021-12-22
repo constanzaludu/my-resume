@@ -2,7 +2,21 @@
     padding: 0.5rem;
     width: 18rem;
 }
+img{
+    margin-right: 0.5rem;
+}
 .boton:hover {
     background-color: #F8DEDF !important;
     color: black;
 }
+@media (min-width: 740px) {
+    .tarjeta {
+        margin-top: 4rem;
+    }
+ } 
+
+ @media (min-width: 1600px) {
+    .tarjeta {
+        margin-top: 10rem;
+    }
+ } 

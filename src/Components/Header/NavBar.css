@@ -9,7 +9,6 @@ img {
  .NavigationBar {
      display: flex;
      flex-direction: row;
-
  }
 .btn-link{
     color: black !important;
@@ -19,7 +18,10 @@ img {
     background-color: #F8DEDF !important;
     border-color:  #F8DEDF !important;
 }
- 
+.active{
+    color:rgb(252, 164, 215) !important;
+    font-weight: bold;
+}
 @media (min-width: 991px) {
     .NavigationBar {
        display: flex;
