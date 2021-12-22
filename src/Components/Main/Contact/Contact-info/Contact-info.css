@@ -1,21 +1,20 @@
 .container-contact{
-    margin-bottom: 1rem;
-    width: 18rem;
     background-color: rgba(255, 255, 255, 0.836);
-    text-align: center;
-    padding: 2rem;
+    text-align: left;
+    padding: 1rem;
 }
 @media (min-width: 740px) {
     .container-contact {
-        width: 22rem;
+        width: 23rem !important;
         margin-top: 8rem;
+        font-size: large;
     }
  } 
 
- @media (min-width: 1400px) {
+ @media (min-width: 1600px) {
     .container-contact {
         width: 28rem;
-        margin-top: 20rem;
-        font-size: 1.5rem;
+        margin-top: 10rem;
+        font-size: large;
     }
  } 

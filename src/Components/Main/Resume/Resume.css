@@ -1,4 +1,13 @@
-.container-edu{
-    padding: 0.5rem;
+.container-title{
     background-color: rgba(255, 255, 255, 0.836);
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.container-edu{
+    background-color: rgba(255, 255, 255, 0.836);
+    padding: 0.5rem 0.5rem 0rem 0.5rem;
+}
+
+.mi-contenedor{
+    margin-bottom: 5rem;
+
 }

@@ -7,7 +7,6 @@ const SobreMi = () => {
     <>
       <div className="div-contenedor">
         <h2>About me</h2>  
-        <br/>
         <h5>Who am I?</h5>
         <p>
           My name is Constanza Luduena. I consider myself a very curious person
@@ -37,7 +36,7 @@ const SobreMi = () => {
         <p>
           In 2021, I decided to broaden my horizons and embark on a journey I
           had been very keen on for quite a while: <strong>Full Stack development</strong> at
-          Numen Academy. An appropiate decision I am delighted about.
+          Numen Academy. A very appropiate decision I am delighted about.
         </p>
       </div>
     </>

@@ -23,3 +23,9 @@
     height: 100%;
 }
 }
+@media (min-width: 1600px) {
+    .Intro{
+        font-size: x-large;
+    }
+
+    }

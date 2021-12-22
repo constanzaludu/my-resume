@@ -15,7 +15,7 @@ const ContactForm = () => {
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>Write your message</Form.Label>
-                <Form.Control as="textarea" rows={3} />
+                <Form.Control className="my-text-area" as="textarea" rows={3} />
             </Form.Group>
             <Button className='boton-send' variant="outline-secondary" type="submit">
                 Send

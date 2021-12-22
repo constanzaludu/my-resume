@@ -5,8 +5,8 @@ import { Container, Table, Badge } from "react-bootstrap";
 const Resume = () => {
   return (
     <>
-      <Container>
-        <h3 className="container-edu">My resume</h3>
+      <Container className="mi-contenedor">
+        <h3 className="container-title">My resume</h3>
         <br />
         <div className="container-edu">
           <Table responsive="sm">

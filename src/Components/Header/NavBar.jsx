@@ -40,10 +40,10 @@ const NavBar = () => {
               style={{ maxHeight: "160px" }}
               navbarScroll
             >
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link href="/about">About</Nav.Link>
-              <Nav.Link href="/resume">Resume</Nav.Link>
-              <Nav.Link href="/contact">Contact</Nav.Link>
+              <Nav.Link activeClassName="active" href="/">Home</Nav.Link>
+              <Nav.Link activeClassName="active" href="/about">About</Nav.Link>
+              <Nav.Link activeClassName="active" href="/resume">Resume</Nav.Link>
+              <Nav.Link activeClassName="active" href="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
