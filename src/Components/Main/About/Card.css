@@ -1,5 +1,6 @@
 .tarjeta{
     padding: 0.5rem;
+    margin: 5rem 1rem;
     width: 18rem;
 }
 img{
@@ -11,7 +12,7 @@ img{
 }
 @media (min-width: 740px) {
     .tarjeta {
-        margin-top: 4rem;
+        margin-top: 10rem;
     }
  } 
 

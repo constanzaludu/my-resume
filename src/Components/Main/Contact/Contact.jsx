@@ -6,7 +6,7 @@ import { Container, Row, Col } from "react-bootstrap";
 const Contacto = () => {
     return ( 
         <>
-        <Container >
+        <Container>
             <Row>
                 <Col>
                     <ContactInfo />

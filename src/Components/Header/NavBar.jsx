@@ -1,11 +1,15 @@
-import React from "react";
+import React, { useContext } from "react";
+import ThemeContext from "../Context/ThemeProvider"
 import "./NavBar.css";
-import { Container, Navbar, Nav, Dropdown, Form } from "react-bootstrap";
+import { Container, Navbar, Nav, Dropdown, Form, FormCheck } from "react-bootstrap";
 
 const NavBar = () => {
+
+  const {theme, handleTheme} = useContext(ThemeContext)
+
   return (
     <>
-      <Navbar className="navbar" bg="light" expand="lg">
+      <Navbar bg="light" expand="lg" fixed="top" >
         <Container className="NavigationBar" fluid>
           <Dropdown className="trasnslate-button">
             <Dropdown.Toggle
@@ -30,8 +34,26 @@ const NavBar = () => {
           </Dropdown>
 
           <Form>
-            <Form.Check type="switch" id="custom-switch" label="Dark mode" />
+          <Form.Check
+            inline
+            label="Light"
+            value='light'
+            name="same"
+            type="radio"
+            onClick={handleTheme}
+            id={'light1'}
+          />
+            <Form.Check
+            inline
+            label="Dark"
+            value='dark'
+            name="same"
+            type="radio"
+            onClick={handleTheme}
+            id={'light2'}
+          />
           </Form>
+          
 
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -40,10 +62,18 @@ const NavBar = () => {
               style={{ maxHeight: "160px" }}
               navbarScroll
             >
-              <Nav.Link activeClassName="active" href="/">Home</Nav.Link>
-              <Nav.Link activeClassName="active" href="/about">About</Nav.Link>
-              <Nav.Link activeClassName="active" href="/resume">Resume</Nav.Link>
-              <Nav.Link activeClassName="active" href="/contact">Contact</Nav.Link>
+              <Nav.Link activeclassname="active" href="/">
+                Home
+              </Nav.Link>
+              <Nav.Link activeclassname="active" href="/about">
+                About
+              </Nav.Link>
+              <Nav.Link activeclassname="active" href="/resume">
+                Resume
+              </Nav.Link>
+              <Nav.Link activeclassname="active" href="/contact">
+                Contact
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

@@ -1,4 +1,6 @@
-
+.navbar{
+    background-color: rgb(167, 167, 167) !important;
+}
 img {
     padding-right: 0.5rem;
 }
@@ -27,4 +29,9 @@ img {
        display: flex;
        flex-direction: row-reverse;
         }
+}
+
+.dark{
+    color: white;
+    background-color:  gray;
 }
