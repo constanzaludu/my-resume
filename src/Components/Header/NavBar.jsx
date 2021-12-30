@@ -7,9 +7,9 @@ const NavBar = () => {
     <>
       <Navbar className="navbar" bg="light" expand="lg">
         <Container className="NavigationBar" fluid>
-          <Dropdown className="trasnslate-button">
+          <Dropdown className="translate-button">
             <Dropdown.Toggle
-              className="trasnslate-button-link"
+              className="translate-button-link"
               variant="link"
               id="dropdown-basic"
             >
