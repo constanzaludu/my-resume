@@ -1,6 +1,6 @@
 import React from "react";
 import "./Resume.css";
-import { Container, Table, Badge } from "react-bootstrap";
+import { Container, Table } from "react-bootstrap";
 
 const Resume = () => {
   return (
@@ -21,13 +21,13 @@ const Resume = () => {
                 <td>Numen Academy (Buenos Aires, Argentina)</td>
               </tr>
               <tr>
-                <td>ENG-SPA Simultaneous and conference interpretation</td>
+                <td>EN-SP Simultaneous and conference interpretation</td>
                 <td>
                   McDonough Interpretation School (Buenos Aires, Argentina)
                 </td>
               </tr>
               <tr>
-                <td>ENG-SPA Literary, Technical and scientific Translation</td>
+                <td>EN-SP Literary, Technical and scientific Translation</td>
                 <td>
                   Escuela Normal Superior en Lenguas Vivas "Sofía Broquen de
                   Spangenberg" (Buenos Aires, Argentina)
@@ -84,19 +84,33 @@ const Resume = () => {
             <tbody>
               <tr>
                 <td>
-                  <strong>English isntructor</strong> in charge of different
+                  <strong>English instructor</strong> in charge of different
                   groups (B2/C1) and <strong>EN-SP Translator</strong> in charge
                   of various translation projects
                 </td>
-                <td>Utalk (in-company teaching and translation services) | 2020- Currently</td>
+                <td>
+                  Utalk (in-company teaching and translation services) | 2020-
+                  Currently
+                </td>
               </tr>
               <tr>
-                <td><strong>Consecutive interpretation</strong> during his four-day official visit to Argentina and his closing speechs</td>
-                <td>EN-ES Interpreting to Barry Rassin (Rotary International President) | 2018</td>
+                <td>
+                  <strong>Consecutive interpretation</strong> during his
+                  four-day official visit to Argentina and his closing speech
+                </td>
+                <td>
+                  EN-ES Interpreting to Barry Rassin (Rotary International
+                  President) | 2018
+                </td>
               </tr>
               <tr>
-                <td><strong>Translation project</strong> on bibliographic texts as part of the program Knowledge and Educational Practices</td>
-                <td>FLACSO Argentina (Latin American University of Social Sciences) | 2018
+                <td>
+                  <strong>Translation project</strong> on bibliographic texts as
+                  part of the program Knowledge and Educational Practices
+                </td>
+                <td>
+                  FLACSO Argentina (Latin American University of Social
+                  Sciences) | 2018
                 </td>
               </tr>
             </tbody>
