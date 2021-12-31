@@ -1,0 +1,33 @@
+{
+    "navbar": {
+        "home": "Home",
+        "about": "About",
+        "resume": "Resume",
+        "contact": "Contact"
+    },
+    "languages": {
+        "dark": "Dark",
+        "light": "Light"
+    },
+    "home": {
+        "title": "I'm Constanza Luduena.",
+        "paragraph1": "I'm a Full Stack developer, originally from Argentina 🇦🇷, but currently located in Spain 🇪🇸.",
+        "paragraph2": "Curiosity has always been my biggest friend."
+    },
+    "about-me": {
+        "title": "About me",
+        "title-who": "Who am I?",
+        "paragraph-who": "My name is Constanza Luduena. I consider myself a very curious person who is always happy to face new challenges. I am a Technical-Scientifical and Literary English-Spanish Translator and a Full-Stack Developer.",
+        "title-why": "Why me?",
+        "paragraph-why": "I am a communicative and detail-oriented person who is always willing to learn and make the most of every experience. My greatest strengths are my team-work and problem-solving skills.",
+        "title-academic": "My academic life and professional career",
+        "paragraph1-academic": "I can never get enough of learning. In 2012 I started my translation studies at Lenguas Vivas Spangenberg, a highly recognized college situated in Buenos Aires, Argentina. Some and consecutive conference interpretation, which helped me consolidate my linguistic and communicative foundations. The icing on the cake was having the great honor of interpreting Barry Rassin, the then President of Rotary International, during his official visit to Argentina. In 2018 I graduated as a translator.",
+        "paragraph2-academic": "In 2021, I decided to broaden my horizons and embark on a journey I had been very keen on for quite a while: Full Stack development at Numen Academy. A very appropiate decision I am delighted about."
+        },
+        "card": {
+            "name": "Constanza Luduena",
+            "post": "Full-Stack Developer",
+            "button": "Print resume"
+        }
+
+}

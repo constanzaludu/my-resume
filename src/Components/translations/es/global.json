@@ -1,0 +1,32 @@
+{
+    "navbar": {
+        "home": "Inicio",
+        "about": "Sobre mí",
+        "resume": "Currículum",
+        "contact": "Contacto"
+    },
+    "languages":{
+        "dark": "Oscuro",
+        "light": "Claro"
+    },
+    "home": {
+        "title": "Soy Constanza Ludueña.",
+        "paragraph1": "Soy desarrolladora Full-Stack, nacida en Argentina 🇦🇷, pero actualmente establecida en España 🇪🇸.",
+        "paragraph2": "La curiosidad siempre fue una gran amiga para mí. ."
+    },
+    "about-me": {
+        "title": "Sobre mí",
+        "title-who": "¿Quién soy?",
+        "paragraph-who": "Mi nombre es Constanza Ludueña. Me considero una persona muy curiosa, a la que le encantan los desafíos. Soy traductora técnico-científica y literaria en inglés y desarrolladora Full-Stack.",
+        "title-why": "¿Por qué yo?",
+        "paragraph-why": "Me caracterizo por ser muy observadora y comunicativa. Siempre estoy dispuesta a aprender y a dar lo mejor de mí en cada circunstancia. Mis mayores fortalezas son la capacidad de resolución de conflictos y trabajo en equipo.",
+        "title-academic": "Mi vida académica y profesional",
+        "paragraph1-academic": "Me encanta siempre seguir aprendiendo. En 2012 comencé mis estudios en traducción en el instituto de formación superior Sofia Broquen de Spangenberg, una institución académica de renombre ubicada en Buenos Aires, Argentina. Unos años más tarde, comencé a insertarme en el mundo de la interpretación simultánea y consecutiva en inglés, lo cual me permitió potenciar exponencialmente mis habilidades lingüísticas y comunicativas. La frutilla del postre fue tener el gran honor de interpretar al entonces Presidente de Rotary Internacional durante toda su visita oficial a Argentina. En 2018 me gradué como traductora de inglés e inicié formalmente con mucho entusiasmo mi carrera profesional.",
+        "paragraph2-academic": "En 2021, tratando de ampliar mis horizontes y con la intención de siempre seguir formándome en campos de mi interés, comencé la diplomatura de desarrollo web Full-Stack en Numen Academy. Estoy muy feliz al contemplar mis logros, avances y aprendizajes y de poder perseguir mis sueños."
+        },
+    "card": {
+        "name": "Constanza Ludueña",
+        "post": "Desarrolladora Full-Stack",
+        "button": "Imprimir currículum"
+    }
+}

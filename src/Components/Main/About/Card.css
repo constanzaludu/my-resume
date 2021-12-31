@@ -7,8 +7,8 @@ img{
     margin-right: 0.5rem;
 }
 .boton:hover {
-    background-color: #F8DEDF !important;
-    color: black;
+    background-color: #f8dedf !important;
+    color: black !important;
 }
 @media (min-width: 740px) {
     .tarjeta {
