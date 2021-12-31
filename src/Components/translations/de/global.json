@@ -28,5 +28,32 @@
             "name": "Constanza Luduena",
             "post": "Full-Stack Entwicklerin",
             "button": "Lebenslauf drücken"
+        },
+        "resume": {
+            "title": "Mein Lebenslauf",
+            "title-edu": "AUSBILDUNG",
+            "edu1-1": "Full-Stack Web Entwicklungskurs",
+            "edu1-2": "Numen Academy (Buenos Aires, Argentinien)",
+            "edu2-1": "EN-SP Simultan- und Konsekutivdolmetschen",
+            "edu2-2": "McDonough Interpretation School (Buenos Aires, Argentinien)",
+            "edu3-1": "Technisch-naturwissenschaftlicher und Literarischer Englisch-Spanisch Übersetzerin",
+            "edu3-2": "Lenguas Vivas Sofía Broquen de Spangenberg (Buenos Aires, Argentinien)",
+            "edu4-1": "Abschluss in Wirtschaft und Geschäftsfühung",
+            "edu4-2": "Realschule Nº 7 (Junin, Argentinien)",
+            "title-tech": "TECHNOLOGIEN",
+            "js": "JavaScript",
+            "html": "HTML",
+            "css": "CSS",
+            "bootstrap": "Bootstrap",
+            "nodejs": "Node.js",
+            "git": "Git",
+            "rf-api": "Restful API",
+            "title-career": "BERUFLICHE LAUFBAHN",
+            "career1-1": "Englischlehrerin verantwortlich für einige Kurse (B2/C1) und EN-SP Übersetzerin verantworylich für einige Übersetzungsprojekte",
+            "career1-2": "Utalk (In-company Unterrichte und Übersetzungsdienste) | 2020 - Zurzeit",
+            "career2-1": "Konsekutivdolmetchen während des Besuchs in Argentinien und der Schlussrede",
+            "career2-2": "Dolmetschdienst von Barry Rassin (Rotary International President) | 2018",
+            "career3-1": "Übersetzungsprojekt bibliographischer Texte im Rahmen des Programms Wissen und Bildungspraktiken",
+            "career3-2": "FLACSO Argentinien (Lateinamerikanische Fakultät für Sozialwissenschaften) | 2018"
         }
 }

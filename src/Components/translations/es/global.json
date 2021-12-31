@@ -28,5 +28,33 @@
         "name": "Constanza Ludueña",
         "post": "Desarrolladora Full-Stack",
         "button": "Imprimir currículum"
+    },
+    "resume": {
+        "title": "Mi currículum",
+        "title-edu": "FORMACIÓN ACADÉMICA",
+        "edu1-1": "Diplomatura en desarrollo web Full-Stack",
+        "edu1-2": "Numen Academy (Buenos Aires, Argentina)",
+        "edu2-1": "Interpretación simultánea y consecutiva de condeferencias EN-SP",
+        "edu2-2": "McDonough Interpretation School (Buenos Aires, Argentina)",
+        "edu3-1": "Traducción técnico-científica y literaria en inglés",
+        "edu3-2": "Lenguas Vivas Sofía Broquen de Spangenberg (Buenos Aires, Argentina)",
+        "edu4-1": "Bachillerato en economía y gestión de las organizaciones",
+        "edu4-2": "Escuela secundaria Nº 7 (Junín, Argentina)",
+        "title-tech": "TECNOLOGÍAS",
+        "js": "JavaScript",
+        "html": "HTML",
+        "css": "CSS",
+        "bootstrap": "Bootstrap",
+        "nodejs": "Node.js",
+        "git": "Git",
+        "rf-api": "Restful API",
+        "title-career": "CARRERA PROFESIONAL",
+        "career1-1": "Instructora de inglés a cargo de diversos grupos (B2/C1) y traductora EN-SP responsable de diferentes proyectos de traducción",
+        "career1-2": "Utalk (enseñanza in-company y servicios de traducción) | 2020 - Actualmente",
+        "career2-1": "Interpretación consecutiva durante su visita oficial en Argentina y su discurso de clausura",
+        "career2-2": "Interpretación EN-ES a Barry Rassin (Rotary International President) | 2018",
+        "career3-1": "Proyecto de traducción de textos bibliográficos en el marco del programa Conocimiento y Prácticas Educativas",
+        "career3-2": "FLACSO Argentina (Facultad Latinoamericana de Ciencias Sociales) | 2018"
     }
+
 }

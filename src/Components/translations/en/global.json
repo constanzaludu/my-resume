@@ -28,6 +28,33 @@
             "name": "Constanza Luduena",
             "post": "Full-Stack Developer",
             "button": "Print resume"
+        },
+        "resume": {
+            "title": "My resume",
+            "title-edu": "EDUCATION AND TRAINING",
+            "edu1-1": "Full-Stack development program",
+            "edu1-2": "Numen Academy (Buenos Aires, Argentina)",
+            "edu2-1": "EN-SP Simultaneous and consecutive conference interpretation",
+            "edu2-2": "McDonough Interpretation School (Buenos Aires, Argentina)",
+            "edu3-1": "EN-SP Literary, Technical and scientific Translation",
+            "edu3-2": "Lenguas Vivas Sofía Broquen de Spangenberg (Buenos Aires, Argentina)",
+            "edu4-1": "Diploma in Economics and Organization Management",
+            "edu4-2": "High School Media Nº 7 (Junin, Argentina)",
+            "title-tech": "TECHNOLOGIES",
+            "js": "JavaScript",
+            "html": "HTML",
+            "css": "CSS",
+            "bootstrap": "Bootstrap",
+            "nodejs": "Node.js",
+            "git": "Git",
+            "rf-api": "Restful API",
+            "title-career": "PROFESSIONAL CAREER",
+            "career1-1": "English isntructor in charge of different groups (B2/C1) and EN-SP Translator in charge of various translation projects",
+            "career1-2": "Utalk (in-company teaching and translation services) | 2020- Currently",
+            "career2-1": "Consecutive interpretation during his four-day official visit to Argentina and his closing speechs",
+            "career2-2": "EN-ES Interpreting to Barry Rassin (Rotary International President) | 2018",
+            "career3-1": "Translation project on bibliographic texts as part of the program Knowledge and Educational Practices",
+            "career3-2": "FLACSO Argentina (Latin American University of Social Sciences) | 2018"
         }
 
 }
