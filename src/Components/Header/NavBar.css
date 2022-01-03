@@ -26,4 +26,8 @@ img {
        display: flex;
        flex-direction: row-reverse;
         }
+    .trasnslate-button {
+        margin-right: 5rem;
+        margin-left: 3rem;
+         }
 }

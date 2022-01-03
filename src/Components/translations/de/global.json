@@ -1,0 +1,59 @@
+{
+    "navbar": {
+        "home": "Startseite",
+        "about": "Über mich",
+        "resume": "Lebenslauf",
+        "contact": "Kontakt"
+    },
+    "languages":{
+        "dark": "Dunkel",
+        "light": "Klar"
+    },
+    "home": {
+        "title": "Ich bin Constanza Luduena.",
+        "paragraph1": "Ich bin ein Full-Stack-Entwickler, geboren in Argentinien 🇦🇷, aber derzeit in Spanien 🇪🇸 ansässig.",
+        "paragraph2": "Neugier war für mich schon immer ein großer Freund."
+    },
+    "about-me": {
+        "title": "Über mich",
+        "title-who": "Wer bin ich?",
+        "paragraph-who": "Ich heiße Constanza Luduena. Ich halte mich für einen sehr neugierigen Menschen, dem die Herausforderungen gut gefallen. Beruflich bin ich technisch-naturwissenschaftlicher und literarischer Englisch-Spanisch Übersetzerin und Full-Stack entwicklerin.",
+        "title-why": "Warum ich?",
+        "paragraph-why": "Ich bin ein aufmerksamer und kommunikativer Mensch, der immer gerne dazulernt und in jeder Situation das Beste gibt. Meine größten Stärke sind die Fähigkeit zur Konfliktlösung und Teamarbeit.",
+        "title-academic": "Mein akademisches und berufliches Leben",
+        "paragraph1-academic": "Ich mag es, immer weiter zu lernen. In 2012 begann ich mein Übersetzungstudium an einer sehr renommierten akademischen Universität in Buenos Aires, Argentinien. Einige Jahre später entschied ich, mich in die Welt des Simultan- und Konsekutivdolmetschens einmischen., wodurch ich meine Sprach- und Kommunikationsfähigkeiten exponentiell verbessern konnte. Das Tüpfelchen auf dem i war zweifellos, dass ich die große Ehre hatte, den damaligen Präsidenten von Rotary International während seines offiziellen Besuchs in Argentinien dolmetschen zu können. In 2018 scholoss ich mein Übersetzungstudium ab und mit Begeisterung begann ich als Übersetzerin und Sprachlehrerin zu arbeiten.",
+        "paragraph2-academic": "In 2021 entschied ich, mein Horizont zu erweitern und deswegen fing ich an, Full-Stack Entwicklung bei Numen Academy zu lernen. Glücklicherweise kann ich heute sagen, dass das eine sehr gute Entscheidung war."
+        },
+        "card": {
+            "name": "Constanza Luduena",
+            "post": "Full-Stack Entwicklerin",
+            "button": "Lebenslauf drücken"
+        },
+        "resume": {
+            "title": "Mein Lebenslauf",
+            "title-edu": "AUSBILDUNG",
+            "edu1-1": "Full-Stack Web Entwicklungskurs",
+            "edu1-2": "Numen Academy (Buenos Aires, Argentinien)",
+            "edu2-1": "EN-SP Simultan- und Konsekutivdolmetschen",
+            "edu2-2": "McDonough Interpretation School (Buenos Aires, Argentinien)",
+            "edu3-1": "Technisch-naturwissenschaftlicher und Literarischer Englisch-Spanisch Übersetzerin",
+            "edu3-2": "Lenguas Vivas Sofía Broquen de Spangenberg (Buenos Aires, Argentinien)",
+            "edu4-1": "Abschluss in Wirtschaft und Geschäftsfühung",
+            "edu4-2": "Realschule Nº 7 (Junin, Argentinien)",
+            "title-tech": "TECHNOLOGIEN",
+            "js": "JavaScript",
+            "html": "HTML",
+            "css": "CSS",
+            "bootstrap": "Bootstrap",
+            "nodejs": "Node.js",
+            "git": "Git",
+            "rf-api": "Restful API",
+            "title-career": "BERUFLICHE LAUFBAHN",
+            "career1-1": "Englischlehrerin verantwortlich für einige Kurse (B2/C1) und EN-SP Übersetzerin verantworylich für einige Übersetzungsprojekte",
+            "career1-2": "Utalk (In-company Unterrichte und Übersetzungsdienste) | 2020 - Zurzeit",
+            "career2-1": "Konsekutivdolmetchen während des Besuchs in Argentinien und der Schlussrede",
+            "career2-2": "Dolmetschdienst von Barry Rassin (Rotary International President) | 2018",
+            "career3-1": "Übersetzungsprojekt bibliographischer Texte im Rahmen des Programms Wissen und Bildungspraktiken",
+            "career3-2": "FLACSO Argentinien (Lateinamerikanische Fakultät für Sozialwissenschaften) | 2018"
+        }
+}

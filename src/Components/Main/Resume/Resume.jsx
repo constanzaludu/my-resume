@@ -1,41 +1,41 @@
 import React from "react";
 import "./Resume.css";
 import { Container, Table } from "react-bootstrap";
+import { useTranslation } from "react-i18next";
+
 
 const Resume = () => {
+
+  const [t, i18n] = useTranslation("global");
+
   return (
     <>
       <Container className="mi-contenedor">
-          <h3 className="container-title">My resume</h3>
+          <h3 className="container-title">{t("resume.title")}</h3>
           <br />
           <div className="container-edu">
             <Table responsive="sm">
               <thead>
                 <tr>
-                  <th>EDUCATION AND TRAINING</th>
+                  <th>{t("resume.title-edu")}</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Full-Stack development program</td>
-                  <td>Numen Academy (Buenos Aires, Argentina)</td>
+                  <td>{t("resume.edu1-1")}</td>
+                  <td>{t("resume.edu1-2")}</td>
                 </tr>
                 <tr>
-                  <td>ENG-SPA Simultaneous and conference interpretation</td>
-                  <td>
-                    McDonough Interpretation School (Buenos Aires, Argentina)
-                  </td>
+                  <td>{t("resume.edu2-1")}</td>
+                  <td>{t("resume.edu2-2")}</td>
                 </tr>
                 <tr>
-                  <td>ENG-SPA Literary, Technical and scientific Translation</td>
-                  <td>
-                    Escuela Normal Superior en Lenguas Vivas "Sofía Broquen de
-                    Spangenberg" (Buenos Aires, Argentina)
-                  </td>
+                  <td>{t("resume.edu3-1")}</td>
+                  <td>{t("resume.edu3-2")}</td>
                 </tr>
                 <tr>
-                  <td>Diploma in Economics and Organization Management</td>
-                  <td>High School Media Nº 7 (Junin, Argentina)</td>
+                  <td>{t("resume.edu4-1")}</td>
+                  <td>{t("resume.edu4-2")}</td>
                 </tr>
               </tbody>
             </Table>
@@ -45,7 +45,7 @@ const Resume = () => {
             <Table responsive="sm">
               <thead>
                 <tr>
-                  <th>TECHNOLOGIES</th>
+                  <th>{t("resume.title-tech")}</th>
                 </tr>
               </thead>
               <tbody>
@@ -78,26 +78,21 @@ const Resume = () => {
             <Table responsive="sm">
               <thead>
                 <tr>
-                  <th>PROFESSIONAL CAREER</th>
+                  <th>{t("resume.title-career")}</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>
-                    <strong>English isntructor</strong> in charge of different
-                    groups (B2/C1) and <strong>EN-SP Translator</strong> in charge
-                    of various translation projects
-                  </td>
-                  <td>Utalk (in-company teaching and translation services) | 2020- Currently</td>
+                  <td>{t("resume.career1-1")}</td>
+                  <td>{t("resume.career1-2")}</td>
+                </tr>  
+                <tr>
+                  <td>{t("resume.career2-1")}</td>
+                  <td>{t("resume.career2-2")}</td>
                 </tr>
                 <tr>
-                  <td><strong>Consecutive interpretation</strong> during his four-day official visit to Argentina and his closing speechs</td>
-                  <td>EN-ES Interpreting to Barry Rassin (Rotary International President) | 2018</td>
-                </tr>
-                <tr>
-                  <td><strong>Translation project</strong> on bibliographic texts as part of the program Knowledge and Educational Practices</td>
-                  <td>FLACSO Argentina (Latin American University of Social Sciences) | 2018
-                  </td>
+                  <td>{t("resume.career3-1")}</td>
+                  <td>{t("resume.career3-2")}</td>
                 </tr>
               </tbody>
             </Table>
