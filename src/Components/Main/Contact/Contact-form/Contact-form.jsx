@@ -1,5 +1,5 @@
 import React from "react";
-import { Form, Button } from "react-bootstrap";
+import { Form, Button, Modal } from "react-bootstrap";
 import './Contact-form.css';
 import { useTranslation } from "react-i18next";
 import ApiKey from "../../../../recursos/ApiKey";
@@ -15,6 +15,10 @@ const ContactForm = () => {
         message: '',
       });
 
+      const [modal_message, setMessage] = useState('')
+
+      const [modal_title, setTitle] = useState('')
+
       const enviarCorreo = (e) => {
         e.preventDefault();
         emailjs.send(
@@ -23,36 +27,58 @@ const ContactForm = () => {
           toSend,
           ApiKey.USER_ID
         )
-          .then((response) => {
-            console.log('SUCCESS!', response.status, response.text);
-          })
-          .catch((err) => {
-            console.log('FAILED...', err);
-          });
-      };
+        
+            .then((result) => {
+                setTitle('Thanks for your email! :)')
+                setMessage('Your email was successfully sent. I will get back to you shortly.')
+                handleShow()
+            },
+            (error) => {
+            setTitle('Your email cannot be sent.. :(')
+            setMessage('Ooops... something went wrong!!! Please... try again later.')
+            handleShow()
+    });
+        
+};
 
       const handleChange = (e) => {
         setToSend({ ...toSend, [e.target.name]: e.target.value });
       };
+
+      const [show, setShow] = useState(false);
+
+      const handleClose = () => setShow(false);
+      const handleShow = () => setShow(true);
 
     return ( 
         <>
         <Form onSubmit = {enviarCorreo} className="contenedor-contact">
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                 <Form.Label>{t("contact-form.email")}</Form.Label>
-                <Form.Control value={toSend.email}
+                <Form.Control value={toSend.email} required
     onChange={handleChange} name="email" type="email" placeholder={t("contact-form.example")} />
                 <Form.Text className="text-muted">{t("contact-form.share")}</Form.Text>
             </Form.Group>
             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                 <Form.Label>{t("contact-form.write")}</Form.Label>
-                <Form.Control value={toSend.message} name="message"
+                <Form.Control value={toSend.message} name="message" required
                 onChange={handleChange} className="my-text-area" as="textarea" rows={3} />
             </Form.Group>
             <Button className='boton-send' variant="outline-secondary" type="submit">
                 {t("contact-form.send")}
             </Button>
         </Form>
+        <Modal show={show} onHide={handleClose}>
+        <Modal.Header closeButton>
+          <Modal.Title>{modal_title}</Modal.Title>
+        </Modal.Header>
+        <Modal.Body>{modal_message}</Modal.Body>
+        <Modal.Footer>
+          <Button variant="secondary" onClick={handleClose}>
+            Close
+          </Button>
+        </Modal.Footer>
+      </Modal>
         </>
      );
 }

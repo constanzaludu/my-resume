@@ -65,7 +65,11 @@
         "share": "Nunca compartiremos tu dirección de correo con nadie.",
         "write": "Escribe aquí tu mensaje",
         "send": "Enviar",
-        "example": "nombre@ejemplo.com"
+        "example": "nombre@ejemplo.com",
+        "result-succ": "Thanks for your email! :)",
+        "message-succ": "Your email was successfully sent. I will get back to you shortly.",
+        "result-err":"Your email cannot be sent.. :(",
+        "message-err":"Ooops... something went wrong!!! Please... try again later."
     },
     "contact-info":{
         "info": "Información de contacto",
