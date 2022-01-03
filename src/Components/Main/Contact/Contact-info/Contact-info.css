@@ -1,14 +1,17 @@
 .container-contact{
     background-color: rgba(255, 255, 255, 0.836);
     text-align: left;
-    padding: 1rem
+    padding: 0.5rem;
+    margin-top: 5rem;
+    line-height: 2rem;
 }
 li {
     list-style: none;
 }
 @media (min-width: 740px) {
     .container-contact {
-        width: 23rem !important;
+        margin-top: 18rem !important;
+        width: 26rem !important;
         margin-top: 8rem;
         font-size: large;
     }
@@ -16,6 +19,7 @@ li {
 
  @media (min-width: 1600px) {
     .container-contact {
+        margin-top: 18rem !important;
         width: 28rem;
         margin-top: 10rem;
         font-size: large;
