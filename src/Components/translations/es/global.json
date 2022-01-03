@@ -55,6 +55,22 @@
         "career2-2": "Interpretación EN-ES a Barry Rassin (Rotary International President) | 2018",
         "career3-1": "Proyecto de traducción de textos bibliográficos en el marco del programa Conocimiento y Prácticas Educativas",
         "career3-2": "FLACSO Argentina (Facultad Latinoamericana de Ciencias Sociales) | 2018"
+    },
+    "contact-form": {
+        "email": "Correo electrónico",
+        "share": "Nunca compartiremos tu dirección de correo con nadie.",
+        "write": "Escribe aquí tu mensaje",
+        "send": "Enviar",
+        "example": "nombre@ejemplo.com"
+    },
+    "contact-info":{
+        "info": "Información de contacto",
+        "email": "Correo electrónico",
+        "phone": "Número de teléfono celular",
+        "wpp": "Número de WhatsApp",
+        "origen": "País de origen",
+        "argentina": "Argentina",
+        "spain": "España",
+        "residence": "País de residencia"
     }
-
 }

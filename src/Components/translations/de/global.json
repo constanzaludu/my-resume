@@ -11,7 +11,7 @@
     },
     "home": {
         "title": "Ich bin Constanza Luduena.",
-        "paragraph1": "Ich bin ein Full-Stack-Entwickler, geboren in Argentinien 🇦🇷, aber derzeit in Spanien 🇪🇸 ansässig.",
+        "paragraph1": "Ich bin eine Full-Stack-Entwicklerin, die in Argentinien 🇦🇷 geboren ist, aber derzeit in Spanien 🇪🇸 ansässig ist.",
         "paragraph2": "Neugier war für mich schon immer ein großer Freund."
     },
     "about-me": {
@@ -55,5 +55,23 @@
             "career2-2": "Dolmetschdienst von Barry Rassin (Rotary International President) | 2018",
             "career3-1": "Übersetzungsprojekt bibliographischer Texte im Rahmen des Programms Wissen und Bildungspraktiken",
             "career3-2": "FLACSO Argentinien (Lateinamerikanische Fakultät für Sozialwissenschaften) | 2018"
+        },
+        "contact-form": {
+            "email": "E-Mail-Adresse",
+            "share": "Wir werden nie Ihre E-Mail Adresse mit niemandem teilen.",
+            "write": "Schreiben hier Ihre Nachricht",
+            "send": "Schicken",
+            "example": "name@beispiel.com"
+
+        },
+        "contact-info":{
+            "info": "Kontaktinformation",
+            "email": "E-Mail-Adresse",
+            "phone": "Handynummer",
+            "wpp": "WhatsApp nummer",
+            "origen": "Herkunftsland",
+            "argentina": "Argentinien",
+            "spain": "Spanien",
+            "residencia": "Land des Wohnsitzes"
         }
 }
