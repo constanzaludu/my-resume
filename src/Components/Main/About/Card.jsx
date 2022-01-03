@@ -4,6 +4,7 @@ import { Card, Button } from 'react-bootstrap';
 import PhotoCV from "../../../images/cv-photo.jpg";
 import Printer from "../../../images/printer.png";
 import { useTranslation } from "react-i18next";
+import CV from "../../../recursos/CV_LuduenaConstanza.pdf"
 
 
 const CardAbout = () => {
@@ -16,7 +17,7 @@ const CardAbout = () => {
             <Card.Body className="text-center">
                 <Card.Title>{t("card.name")}</Card.Title>
                 <Card.Text>{t("card.post")}</Card.Text>
-                <Button className="boton" variant="outline-secondary"><img src={Printer} />{t("card.button")}</Button>
+                <Button href={CV} download className="boton" variant="outline-secondary"><img src={Printer} />{t("card.button")}</Button>
             </Card.Body>
         </Card>
      );

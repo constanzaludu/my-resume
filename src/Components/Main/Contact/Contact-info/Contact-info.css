@@ -10,7 +10,7 @@ li {
 }
 @media (min-width: 740px) {
     .container-contact {
-        margin-top: 18rem !important;
+        margin-top: 16rem !important;
         width: 26rem !important;
         margin-top: 8rem;
         font-size: large;
@@ -19,7 +19,7 @@ li {
 
  @media (min-width: 1600px) {
     .container-contact {
-        margin-top: 18rem !important;
+        margin-top: 16rem !important;
         width: 28rem;
         margin-top: 10rem;
         font-size: large;
