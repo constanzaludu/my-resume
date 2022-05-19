@@ -103,9 +103,13 @@ const Resume = () => {
                 </tr>
               </thead>
               <tbody>
-                <tr>
+              <tr>
                   <td>{t("resume.career1-1")}</td>
                   <td>{t("resume.career1-2")}</td>
+                </tr>
+                <tr>
+                  <td>{t("resume.career0-1")}</td>
+                  <td>{t("resume.career0-2")}</td>
                 </tr>  
                 <tr>
                   <td>{t("resume.career2-1")}</td>

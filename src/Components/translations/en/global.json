@@ -53,7 +53,9 @@
             "en": "English: C2 Proficiency",
             "de": "German: B2 Upper-Intermediate",
             "title-career": "PROFESSIONAL CAREER",
-            "career1-1": "English isntructor in charge of different groups (B2/C1) and EN-SP Translator in charge of various translation projects",
+            "career0-1":"Shopping-cart website as part of a personal project",
+            "career0-2":"Project developed in React JS | 2021",
+            "career1-1": "English instructor in charge of different groups (B2/C1) and EN-SP Translator in charge of various translation projects",
             "career1-2": "Utalk (in-company teaching and translation services) | 2020- Currently",
             "career2-1": "Consecutive interpretation during his four-day official visit to Argentina and his closing speechs",
             "career2-2": "EN-ES Interpreting to Barry Rassin (Rotary International President) | 2018",
@@ -61,11 +63,17 @@
             "career3-2": "FLACSO Argentina (Latin American University of Social Sciences) | 2018"
         },
         "contact-form": {
+            "name": "Name and surname",
+            "name-box": "Enter your name here",
             "email": "Email address",
             "share": "We'll never share your email with anyone else.",
             "write": "Write your message",
             "send": "Send",
-            "example": "name@example.com"
+            "example": "your-name@example.com",
+            "result-succ": "Thanks for your email! :)",
+            "message-succ": "Your email was successfully sent. I will get back to you shortly.",
+            "result-err":"Your email cannot be sent.. :(",
+            "message-err":"Ooops... something went wrong!!! Please try again later."
         },
         "contact-info":{
             "info": "Contact information",

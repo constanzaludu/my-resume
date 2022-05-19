@@ -7,6 +7,16 @@ const Main = () => {
 
     const {theme} = useContext(ThemeContext)
 
+    // function swapStyleSheet(sheet){
+    //     document.getElementById('theme').setAttribute('href', sheet);
+    //     localStorage.setItem("sheet", sheet);
+    //   }
+      
+    //   window.onload = _ =>
+    //    swapStyleSheet(
+    //     localStorage.getItem("sheet") || "default.css"
+    //    );
+       
     return ( 
         <main className={theme}>
             <Rutas />
