@@ -48,7 +48,13 @@
         "nodejs": "Node.js",
         "git": "Git",
         "rf-api": "Restful API",
+        "languages": "IDIOMAS",
+        "sp": "Español: Hablante nativo",
+        "en": "Inglés: C2 Nivel cercano al del hablante nativo",
+        "de": "Alemán: B2  Nivel intermedio alto ",
         "title-career": "CARRERA PROFESIONAL",
+        "career0-1":"Sitio web con carrito de compras integrado (proyecto personal)",
+        "career0-2":"Proyecto desarrollado en React JS | 2021",
         "career1-1": "Instructora de inglés a cargo de diversos grupos (B2/C1) y traductora EN-SP responsable de diferentes proyectos de traducción",
         "career1-2": "Utalk (enseñanza in-company y servicios de traducción) | 2020 - Actualmente",
         "career2-1": "Interpretación consecutiva durante su visita oficial en Argentina y su discurso de clausura",
@@ -57,11 +63,17 @@
         "career3-2": "FLACSO Argentina (Facultad Latinoamericana de Ciencias Sociales) | 2018"
     },
     "contact-form": {
+        "name": "Nombre y apellido",
+        "name-box": "Ingresa tu nombre aquí",
         "email": "Correo electrónico",
         "share": "Nunca compartiremos tu dirección de correo con nadie.",
         "write": "Escribe aquí tu mensaje",
         "send": "Enviar",
-        "example": "nombre@ejemplo.com"
+        "example": "tu-nombre@ejemplo.com",
+        "result-succ": "Muchas gracias por tu mensaje :)",
+        "message-succ": "Tu mensaje fue enviado con éxito!! Me pondré en contacto contigo tan pronto como sea posible.",
+        "result-err":"Tu mensaje no pudo ser enviado.. :(",
+        "message-err":"Ups... algo salió mal!!! Por favor, vuelve a intentarlo."
     },
     "contact-info":{
         "info": "Información de contacto",

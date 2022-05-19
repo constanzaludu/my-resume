@@ -2,7 +2,7 @@
     padding: 1rem;
     background-color: rgba(255, 255, 255, 0.836);
     margin-top: 1rem;
-    margin-bottom: 4.5rem !important;
+    margin-bottom: 5rem !important;
 }
 .boton-send{
     background-color: #F8DEDF !important;
@@ -16,8 +16,7 @@
 @media (min-width: 740px) {
     .contenedor-contact {
         width: 22rem;
-        margin-top: 8rem;
-        margin-top: 6rem !important;
+        margin-top: 8rem !important;
         width: 32rem !important;
         font-size: x-large;
     }
@@ -27,7 +26,7 @@
     .contenedor-contact {
         width: 40rem !important;
         height: auto;
-        margin-top: 9rem !important;
+        margin-top: 8rem !important;
         font-size: x-large;
     }
  } 

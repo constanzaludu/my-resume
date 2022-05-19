@@ -12,12 +12,11 @@ img{
 }
 @media (min-width: 740px) {
     .tarjeta {
-        margin-top: 10rem;
+        margin-top: 8rem;
     }
  } 
-
  @media (min-width: 1600px) {
     .tarjeta {
-        margin-top: 10rem;
+        margin-top: 8rem;
     }
  } 

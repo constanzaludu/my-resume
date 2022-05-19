@@ -2,7 +2,7 @@
 body {
   background-image: url(../src/images/laptop-accesories.jpg);
   background-size: cover;
-  min-height: calc(100vh - 57px - 65px);
+  min-height: calc(100vh - 65px);
   background-repeat: no-repeat;
   margin: 0;
   color: black;

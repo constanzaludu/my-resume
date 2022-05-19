@@ -86,28 +86,6 @@ const NavBar = () => {
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
-
-          <Form>
-            <Form.Check
-              inline
-              label={t("languages.light")}
-              value="light"
-              name="same"
-              type="radio"
-              onClick={handleTheme}
-              id={"light1"}
-            />
-            <Form.Check
-              inline
-              label={t("languages.dark")}
-              value="dark"
-              name="same"
-              type="radio"
-              onClick={handleTheme}
-              id={"light2"}
-            />
-          </Form>
-
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
             <Nav
@@ -128,6 +106,26 @@ const NavBar = () => {
                 {t("navbar.contact")}
               </Nav.Link>
             </Nav>
+            <Form>
+            <Form.Check
+              inline
+              label={t("languages.light")}
+              value="light"
+              name="same"
+              type="radio"
+              onClick={handleTheme}
+              id={"light1"}
+            />
+            <Form.Check
+              inline
+              label={t("languages.dark")}
+              value="dark"
+              name="same"
+              type="radio"
+              onClick={handleTheme}
+              id={"light2"}
+            />
+          </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>

@@ -15,14 +15,14 @@ img{
 
 @media (min-width: 740px) {
    .div-contenedor {
-    margin-top: 7.5rem;
+    margin-top: 6rem;
     height: auto;
     width: 45rem;
    }
 } 
  @media (min-width: 1600px) {
     .div-contenedor {
-        margin-top: 7.5rem;
+        margin-top: 6rem;
         width: 45rem;
         font-size: 1.2rem;
     }

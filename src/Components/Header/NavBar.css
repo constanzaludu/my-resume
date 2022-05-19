@@ -3,8 +3,8 @@ img {
 }
 .trasnslate-button {
     box-sizing: none;
+    size: 50% !important;
  }
-
  .NavigationBar {
      display: flex;
      flex-direction: row;

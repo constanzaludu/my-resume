@@ -74,6 +74,27 @@ const Resume = () => {
             </Table>
           </div>
           <br />
+          <div className="container-lang">
+            <Table responsive="sm">
+              <thead>
+                <tr>
+                  <th>{t("resume.languages")}</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{t("resume.sp")}</td>
+                </tr>  
+                <tr>
+                  <td>{t("resume.en")}</td>
+                </tr>
+                <tr>
+                  <td>{t("resume.de")}</td>
+                </tr>
+              </tbody>
+            </Table>
+          </div>  
+          <br />
           <div className="container-edu">
             <Table responsive="sm">
               <thead>
@@ -82,9 +103,13 @@ const Resume = () => {
                 </tr>
               </thead>
               <tbody>
-                <tr>
+              <tr>
                   <td>{t("resume.career1-1")}</td>
                   <td>{t("resume.career1-2")}</td>
+                </tr>
+                <tr>
+                  <td>{t("resume.career0-1")}</td>
+                  <td>{t("resume.career0-2")}</td>
                 </tr>  
                 <tr>
                   <td>{t("resume.career2-1")}</td>
