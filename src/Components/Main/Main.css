@@ -1,8 +1,15 @@
 .dark{
     background-color:  gray;
-    background-image: url(../../images/laptop-accesories-dark.jpg);
+    background-image: url(../../images/fondo-modoOscuro.jpg);
     background-size: cover;
     padding: 1rem;
     min-height: 100vh !important;
     background-repeat: no-repeat;
+    color: white;
+    display: flex;
+      .Intro{
+        max-width: 35rem;
+        padding-left: 0;
+        justify-content: center;
+    }
   }
