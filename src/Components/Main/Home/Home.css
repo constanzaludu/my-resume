@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: calc(100vh - 165px) !important;
+    height: 100vh !important;
 }
 .Intro{
     margin-top: 5rem;
@@ -16,7 +16,7 @@
 .Intro{
     max-width: 140rem;
     padding-left: 35rem;
-    padding-right: 5rem;
+    padding-right: 15rem;
 }
 .Container-name{
     width: 100%;

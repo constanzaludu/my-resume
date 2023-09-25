@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import ThemeContext from "../Context/ThemeProvider";
+import { ThemeContext } from "../../Context/ThemeProvider";
 import "./NavBar.css";
 import Argentina from "../../images/argentina.png";
 import Germany from "../../images/deutschland.png";
@@ -8,7 +8,8 @@ import { Container, Navbar, Nav, Dropdown, Form } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
 const NavBar = () => {
-  const { theme, handleTheme } = useContext(ThemeContext);
+
+  const {theme, handleTheme} = useContext(ThemeContext);
   const [t, i18n] = useTranslation("global");
 
   const [language, setLanguage] = useState(localStorage.getItem("language"));
@@ -32,9 +33,9 @@ const NavBar = () => {
 
   return (
     <>
-      <Navbar bg="light" expand="lg" fixed="top">
+      <Navbar expand="lg" fixed="top" className={`navbar-styles ${theme} `}>
         <Container className="NavigationBar" fluid>
-          <Dropdown className="trasnslate-button">
+          <Dropdown className={`trasnslate-button-link ${theme}`}>
             <Dropdown.Toggle
               className="trasnslate-button-link"
               variant="link"
@@ -109,24 +110,26 @@ const NavBar = () => {
               </Nav.Link>
             </Nav>
             <Form>
-              <Form.Check
-                inline
-                label={t("languages.light")}
-                value="light"
-                name="same"
-                type="radio"
-                onClick={handleTheme}
-                id={"light1"}
-              />
-              <Form.Check
-                inline
-                label={t("languages.dark")}
-                value="dark"
-                name="same"
-                type="radio"
-                onClick={handleTheme}
-                id={"light2"}
-              />
+              <fieldset>
+                <Form.Check
+                  inline
+                  label={t("languages.light")}
+                  value="light"
+                  name="same"
+                  type="radio"
+                  onClick={handleTheme}
+                  id={"light"}
+                />
+                <Form.Check
+                  inline
+                  label={t("languages.dark")}
+                  value="dark"
+                  name="same"
+                  type="radio"
+                  onClick={handleTheme}
+                  id={"dark"}
+                />
+              </fieldset>
             </Form>
           </Navbar.Collapse>
         </Container>

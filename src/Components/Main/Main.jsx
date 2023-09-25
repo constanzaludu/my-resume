@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import ThemeContext from "../Context/ThemeProvider"
+import { ThemeContext } from "../../Context/ThemeProvider";
 import Rutas from '../Rutas/Rutas';
 import "./Main.css";
 
@@ -18,7 +18,7 @@ const Main = () => {
     //    );
        
     return ( 
-        <main className={theme}>
+        <main className={`main-component ${theme}`}>
             <Rutas />
         </main>
      );

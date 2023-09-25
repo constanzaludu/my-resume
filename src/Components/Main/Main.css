@@ -1,8 +1,6 @@
-.dark{
-    background-color:  gray;
-    background-image: url(../../images/laptop-accesories-dark.jpg);
+.main-component.dark{
+    background-image: url(../../images/wallpaper-dark.jpeg) !important;
     background-size: cover;
-    padding: 1rem;
-    min-height: 100vh !important;
-    background-repeat: no-repeat;
-  }
+    color: aliceblue;
+    height: 100vh;
+}

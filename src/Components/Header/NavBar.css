@@ -5,6 +5,14 @@ img {
     box-sizing: none;
     size: 50% !important;
  }
+ .dark .trasnslate-button-link {
+    color: white !important;
+ }
+ .dark .trasnslate-button-link:hover {
+    background-color: white;
+    color:#000000 !important;
+    border-radius: 10px;
+ }
  .NavigationBar {
      display: flex;
      flex-direction: row;
@@ -17,10 +25,15 @@ img {
     background-color: #F8DEDF !important;
     border-color:  #F8DEDF !important;
 }
+.dark .form-check-input:checked {
+    background-color: #000000 !important;
+    border-color:  #000000 !important;
+}
 .active{
     color:rgb(252, 164, 215) !important;
     font-weight: bold;
 }
+
 @media (min-width: 991px) {
     .NavigationBar {
        display: flex;
@@ -31,3 +44,7 @@ img {
         margin-left: 3rem;
          }
 }
+
+.dark .me-auto.my-2.my-lg-0 .nav-link {
+    color: white; 
+  }
