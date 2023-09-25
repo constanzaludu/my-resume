@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
 import ThemeContext from "../Context/ThemeProvider";
 import "./NavBar.css";
-import Argentina from "../../images/argentina.png"
-import Germany from "../../images/deutschland.png"
-import America from "../../images/united-states.png"
+import Argentina from "../../images/argentina.png";
+import Germany from "../../images/deutschland.png";
+import Usa from "../../images/united-states.png";
 import { Container, Navbar, Nav, Dropdown, Form } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
@@ -11,25 +11,24 @@ const NavBar = () => {
   const { theme, handleTheme } = useContext(ThemeContext);
   const [t, i18n] = useTranslation("global");
 
-    const [language, setLanguage] = useState(localStorage.getItem('language'));
+  const [language, setLanguage] = useState(localStorage.getItem("language"));
 
-    const settingLanguage = (idioma) => {
-      switch(idioma){
-        case "en":
-        localStorage.setItem("language", 'English');
-        setLanguage('English')
+  const settingLanguage = (idioma) => {
+    switch (idioma) {
+      case "en":
+        localStorage.setItem("language", "English");
+        setLanguage("EN");
         break;
-        case "es":
-        localStorage.setItem("language", 'Spanish');
-        setLanguage('Spanish')
+      case "es":
+        localStorage.setItem("language", "Spanish");
+        setLanguage("ES");
         break;
-        case "de":
-        localStorage.setItem("language", 'German');
-        setLanguage('German')
+      case "de":
+        localStorage.setItem("language", "German");
+        setLanguage("DE");
         break;
-      }
     }
-
+  };
 
   return (
     <>
@@ -54,35 +53,38 @@ const NavBar = () => {
             <Dropdown.Menu>
               <Dropdown.Item
                 href="#/action-1"
-                onClick={() => {i18n.changeLanguage("English") ;{settingLanguage('en')}}}
+                onClick={() => {
+                  i18n.changeLanguage("English");
+                  {
+                    settingLanguage("en");
+                  }
+                }}
               >
-              <img
-              src={America}
-              width="30"
-              height="25"
-              href="#/action-2" />
+                <img src={Usa} width="30" height="25" href="#/action-2" />
                 English
               </Dropdown.Item>
               <Dropdown.Item
-                onClick={() => {i18n.changeLanguage("Spanish") ;{settingLanguage('es')}}} 
-              > 
-              <img
-              src={Argentina}
-              width="30"
-              height="25"
-              href="#/action-2" />
-                Spanish
+                onClick={() => {
+                  i18n.changeLanguage("Spanish");
+                  {
+                    settingLanguage("es");
+                  }
+                }}
+              >
+                <img src={Argentina} width="30" height="25" href="#/action-2" />
+                Español
               </Dropdown.Item>
               <Dropdown.Item
                 href="#/action-3"
-                onClick={() => {i18n.changeLanguage("German") ;{settingLanguage('de')}}}
+                onClick={() => {
+                  i18n.changeLanguage("German");
+                  {
+                    settingLanguage("de");
+                  }
+                }}
               >
-              <img
-              src={Germany}
-              width="30"
-              height="25"
-              href="#/action-2" />
-                German
+                <img src={Germany} width="30" height="25" href="#/action-2" />
+                Deutsch
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
@@ -107,25 +109,25 @@ const NavBar = () => {
               </Nav.Link>
             </Nav>
             <Form>
-            <Form.Check
-              inline
-              label={t("languages.light")}
-              value="light"
-              name="same"
-              type="radio"
-              onClick={handleTheme}
-              id={"light1"}
-            />
-            <Form.Check
-              inline
-              label={t("languages.dark")}
-              value="dark"
-              name="same"
-              type="radio"
-              onClick={handleTheme}
-              id={"light2"}
-            />
-          </Form>
+              <Form.Check
+                inline
+                label={t("languages.light")}
+                value="light"
+                name="same"
+                type="radio"
+                onClick={handleTheme}
+                id={"light1"}
+              />
+              <Form.Check
+                inline
+                label={t("languages.dark")}
+                value="dark"
+                name="same"
+                type="radio"
+                onClick={handleTheme}
+                id={"light2"}
+              />
+            </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>
