@@ -8,12 +8,11 @@ export const ThemeContext = createContext()
     
     const handleTheme = (e) => {
         if (e.target.value === "light"){
-            setTheme("light")
+            setTheme("light")    
         }
         else {
             setTheme("dark")
         }
-
     }
 
     const data = {theme, handleTheme};

@@ -11,7 +11,6 @@ const NavBar = () => {
 
   const {theme, handleTheme} = useContext(ThemeContext);
   const [t, i18n] = useTranslation("global");
-
   const [language, setLanguage] = useState(localStorage.getItem("language"));
 
   const settingLanguage = (idioma) => {
@@ -117,9 +116,10 @@ const NavBar = () => {
                   value="light"
                   name="same"
                   type="radio"
-                  onClick={handleTheme}
+                  onChange={handleTheme}
                   id={"light"}
-                />
+                  hecked={theme === 'light'}
+                  />
                 <Form.Check
                   inline
                   label={t("languages.dark")}
@@ -128,7 +128,8 @@ const NavBar = () => {
                   type="radio"
                   onClick={handleTheme}
                   id={"dark"}
-                />
+                  hecked={theme === 'dark'}
+                  />
               </fieldset>
             </Form>
           </Navbar.Collapse>
