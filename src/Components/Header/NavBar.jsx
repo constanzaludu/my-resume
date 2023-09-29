@@ -118,7 +118,7 @@ const NavBar = () => {
                   type="radio"
                   onChange={handleTheme}
                   id={"light"}
-                  hecked={theme === 'light'}
+                  checked={theme === 'light'}
                   />
                 <Form.Check
                   inline
@@ -128,7 +128,7 @@ const NavBar = () => {
                   type="radio"
                   onClick={handleTheme}
                   id={"dark"}
-                  hecked={theme === 'dark'}
+                  checked={theme === 'dark'}
                   />
               </fieldset>
             </Form>

@@ -1,18 +1,18 @@
-import { createContext, useState } from "react";
+import { createContext, useState, useContext } from "react";
 
 export const ThemeContext = createContext()
 
- const ThemeProvider = ({children}) => {
+export const useTheme = () => {
+    return useContext(ThemeContext);
+  };
 
-    const [theme, setTheme] = useState("light");
+ const ThemeProvider = ({children}) => {
+    const [theme, setTheme] = useState(localStorage.getItem('theme') || 'light');    
     
     const handleTheme = (e) => {
-        if (e.target.value === "light"){
-            setTheme("light")    
-        }
-        else {
-            setTheme("dark")
-        }
+        const newTheme = theme === 'light' ? 'dark' : 'light';
+        localStorage.setItem('theme', newTheme);
+        setTheme(newTheme);
     }
 
     const data = {theme, handleTheme};
