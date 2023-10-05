@@ -10,12 +10,10 @@ import global_es from "./Components/translations/es/global.json"
 import global_en from "./Components/translations/en/global.json"
 import global_de from "./Components/translations/de/global.json"
 
- //seteo por defecto la primera vez el valor del idioma en el localStorage
+ // Seteo por defecto la primera vez el valor del idioma en el localStorage
  if (localStorage.getItem('language') === null){
   localStorage.setItem("language", 'English');
 }
-
-console.log(localStorage.getItem('language'))
 
 i18next.init({
   interpolation: {escapeValue: false},

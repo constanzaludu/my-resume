@@ -11,6 +11,7 @@ const Home = () => {
 
   return ( 
     <>
+    
         <Container className="Container-name">
             <div className='Intro' >
                         <h2>{t("home.title")}</h2>

@@ -13,6 +13,7 @@ const NavBar = () => {
   const [t, i18n] = useTranslation("global");
   const [language, setLanguage] = useState(localStorage.getItem("language"));
 
+
   const settingLanguage = (idioma) => {
     switch (idioma) {
       case "en":

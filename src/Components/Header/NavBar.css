@@ -33,6 +33,13 @@ img {
     color:rgb(252, 164, 215) !important;
     font-weight: bold;
 }
+.dark{
+    .navbar {
+        background-color: pink;
+        position: fixed;
+        top: 0 !important;
+      }
+}
 
 @media (min-width: 991px) {
     .NavigationBar {
