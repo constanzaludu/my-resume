@@ -3,7 +3,7 @@ import ThemeContext from "../Context/ThemeProvider";
 import "./NavBar.css";
 import Argentina from "../../images/argentina.png"
 import Germany from "../../images/deutschland.png"
-import America from "../../images/united-states.png"
+import Usa from "../../images/united-states.png"
 import { Container, Navbar, Nav, Dropdown, Form } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
@@ -17,19 +17,18 @@ const NavBar = () => {
       switch(idioma){
         case "en":
         localStorage.setItem("language", 'English');
-        setLanguage('English')
+        setLanguage('EN')
         break;
         case "es":
         localStorage.setItem("language", 'Spanish');
-        setLanguage('Spanish')
+        setLanguage('ES')
         break;
         case "de":
         localStorage.setItem("language", 'German');
-        setLanguage('German')
+        setLanguage('DE')
         break;
       }
     }
-
 
   return (
     <>
@@ -57,7 +56,7 @@ const NavBar = () => {
                 onClick={() => {i18n.changeLanguage("English") ;{settingLanguage('en')}}}
               >
               <img
-              src={America}
+              src={Usa}
               width="30"
               height="25"
               href="#/action-2" />
@@ -71,7 +70,7 @@ const NavBar = () => {
               width="30"
               height="25"
               href="#/action-2" />
-                Spanish
+                Español
               </Dropdown.Item>
               <Dropdown.Item
                 href="#/action-3"
@@ -82,7 +81,7 @@ const NavBar = () => {
               width="30"
               height="25"
               href="#/action-2" />
-                German
+                Deutsch
               </Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
