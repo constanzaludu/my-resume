@@ -1,3 +1,11 @@
+.nav-link {
+    color: #000; /* Color inicial */
+    font-weight: normal; /* Peso de fuente inicial */
+    transition: color 0.3s ease, font-weight 0.3s ease; /* Transición suave */
+  }
+  .nav-link.active {
+    font-weight: bold;
+  }
 img {
     padding-right: 0.5rem;
 }
@@ -13,21 +21,7 @@ img {
     color: black !important;
     text-decoration: none !important;
 }
-.form-check-input:checked {
-    background-color: #F8DEDF !important;
-    border-color:  #F8DEDF !important;
-}
-.active{
-    color:rgb(252, 164, 215) !important;
-    font-weight: bold;
-}
-.dark{
-    .navbar {
-        background-color: pink;
-        position: fixed;
-        top: 0 !important;
-      }
-}
+
 @media (min-width: 991px) {
     .NavigationBar {
        display: flex;

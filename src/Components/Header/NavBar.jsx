@@ -90,16 +90,16 @@ const NavBar = () => {
               style={{ maxHeight: "160px" }}
               navbarScroll
             >
-              <Nav.Link activeclassname="active" href="/">
+              <Nav.Link activeClassName="active" href="/">
                 {t("navbar.home")}
               </Nav.Link>
-              <Nav.Link activeclassname="active" href="/about">
+              <Nav.Link activeClassName="active" href="/about">
                 {t("navbar.about")}
               </Nav.Link>
-              <Nav.Link activeclassname="active" href="/resume">
+              <Nav.Link activeClassName="active" href="/resume">
                 {t("navbar.resume")}
               </Nav.Link>
-              <Nav.Link activeclassname="active" href="/contact">
+              <Nav.Link activeClassName="active" href="/contact">
                 {t("navbar.contact")}
               </Nav.Link>
             </Nav>

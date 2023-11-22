@@ -1,5 +1,4 @@
 import Rutas from '../Rutas/Rutas';
-import "./Main.css";
 
 const Main = () => {
 

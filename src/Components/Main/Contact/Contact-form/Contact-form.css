@@ -3,10 +3,18 @@
     background-color: rgba(255, 255, 255, 0.836);
     margin-top: 1rem;
     margin-bottom: 5rem !important;
+    transition: box-shadow 0.1s;
+}
+.contenedor-contact:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 .boton-send{
     background-color: #F8DEDF !important;
     color: black !important;
+    transition: box-shadow 0.1s;
+}
+.boton-send:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 .my-text-area{
     max-height: calc(1em * 1.5 * 7);
@@ -21,7 +29,14 @@
         font-size: x-large;
     }
  } 
-
+ @media (min-width: 1028px) {
+    .contenedor-contact {
+        margin-top: 5rem !important;
+        width: 28rem !important;
+        margin-top: 8rem;
+        font-size: large;
+    }
+ } 
  @media (min-width: 1600px) {
     .contenedor-contact {
         width: 40rem !important;

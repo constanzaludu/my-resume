@@ -4,6 +4,10 @@
     padding: 0.5rem;
     margin-top: 5rem;
     line-height: 2rem;
+    transition: box-shadow 0.1s;
+}
+.container-contact:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
 }
 li {
     list-style: none;
@@ -16,7 +20,14 @@ li {
         font-size: large;
     }
  } 
-
+ @media (min-width: 1028px) {
+    .container-contact {
+        margin-top: 8rem !important;
+        width: 26rem !important;
+        margin-top: 8rem;
+        font-size: large;
+    }
+ } 
  @media (min-width: 1600px) {
     .container-contact {
         margin-top: 16rem !important;

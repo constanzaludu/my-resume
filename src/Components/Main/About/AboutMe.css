@@ -20,6 +20,11 @@ img{
     width: 45rem;
    }
 } 
+@media (min-width: 1028px) {
+    .div-contenedor {
+    margin-bottom: 8rem;
+    }
+ } 
  @media (min-width: 1600px) {
     .div-contenedor {
         margin-top: 6rem;
