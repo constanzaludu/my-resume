@@ -1,11 +1,7 @@
-import React, { useContext } from "react";
-import ThemeContext from "../Context/ThemeProvider"
 import Rutas from '../Rutas/Rutas';
 import "./Main.css";
 
 const Main = () => {
-
-    const {theme} = useContext(ThemeContext)
 
     // function swapStyleSheet(sheet){
     //     document.getElementById('theme').setAttribute('href', sheet);
@@ -18,7 +14,7 @@ const Main = () => {
     //    );
        
     return ( 
-        <main className={theme}>
+        <main>
             <Rutas />
         </main>
      );

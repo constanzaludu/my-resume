@@ -1,5 +1,4 @@
 import React, { useContext, useState } from "react";
-import ThemeContext from "../Context/ThemeProvider";
 import "./NavBar.css";
 import Argentina from "../../images/argentina.png"
 import Germany from "../../images/deutschland.png"
@@ -8,7 +7,6 @@ import { Container, Navbar, Nav, Dropdown, Form } from "react-bootstrap";
 import { useTranslation } from "react-i18next";
 
 const NavBar = () => {
-  const { theme, handleTheme } = useContext(ThemeContext);
   const [t, i18n] = useTranslation("global");
 
     const [language, setLanguage] = useState(localStorage.getItem('language'));
@@ -105,26 +103,6 @@ const NavBar = () => {
                 {t("navbar.contact")}
               </Nav.Link>
             </Nav>
-            <Form>
-            <Form.Check
-              inline
-              label={t("languages.light")}
-              value="light"
-              name="same"
-              type="radio"
-              onClick={handleTheme}
-              id={"light1"}
-            />
-            <Form.Check
-              inline
-              label={t("languages.dark")}
-              value="dark"
-              name="same"
-              type="radio"
-              onClick={handleTheme}
-              id={"light2"}
-            />
-          </Form>
           </Navbar.Collapse>
         </Container>
       </Navbar>

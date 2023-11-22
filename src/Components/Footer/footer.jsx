@@ -4,12 +4,8 @@ import LinkedIn from '../../images/linkedin.png'
 import GitHub from '../../images/github.png'
 import Gmail from '../../images/gmail.png'
 import Slack from '../../images/slack.png'
-import { useContext } from "react";
-import ThemeContext from "../Context/ThemeProvider";
 
 const Footer = () => {
-
-    const {theme} = useContext(ThemeContext)
 
     return ( 
         <Navbar  bg="light" fixed="bottom">
